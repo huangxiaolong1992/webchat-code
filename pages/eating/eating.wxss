@@ -1,0 +1,3 @@
+@import "../sport_article/sport_article.wxss";
+
+@import "template/template.wxss";

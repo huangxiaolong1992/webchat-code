@@ -1,0 +1,17 @@
+@import "../eating/template/template.wxss";
+
+.star-introduce{
+    width:80%;
+    margin:20rpx auto;
+    text-align: left!important;
+    text-indent: 2em;
+    line-height: 50rpx;
+    font-size:28rpx
+}
+
+.star image{width: 80%;border-radius: 10rpx}
+.swiper-box{
+    margin-top:18rpx
+}
+.star{padding-bottom: 30rpx;text-align: center;margin-top: 20rpx}
+

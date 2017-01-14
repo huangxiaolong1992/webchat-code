@@ -1,0 +1,13 @@
+<view class="container">
+   <view class="prompt" animation="{{animationData}}"  wx:if="{{show}}">
+     {{information}}
+  </view>
+
+   <image src="../../images/star.jpg" class="head_image"></image>
+   <view class="cookie">{{cookie}}</view>
+   <view class="login"> 
+      <view> <input type="text" value="{{value1}}" placeholder="请输入账号" bindinput="bindInputValue1"/></view>
+      <view><input type="text"  value="{{value2}}" placeholder="请输入密码" bindinput="bindInputValue2"/></view>
+      <button type="primary" bindtap="enterMain">{{enterMain}}</button>
+   </view>
+</view>

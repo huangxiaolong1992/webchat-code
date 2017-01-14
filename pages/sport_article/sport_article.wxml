@@ -1,0 +1,11 @@
+    <import src="../eating/template/template.wxml" />
+    
+        <view class="star" wx:for="{{sport}}" >
+          <image src="{{item.image}}"></image>
+          <view class="star-introduce">
+            {{item.text}}
+          </view>
+           
+        </view> 
+
+        <template is="msgItem" data="{{...item}}"/>

@@ -1,0 +1,3 @@
+<template name="msgItem">
+  <view class="your_imformation">下拉刷新，获得您的当前位置</view>
+</template>

@@ -1,0 +1,6 @@
+{
+     "navigationBarBackgroundColor": "black",
+     "navigationBarTextStyle": "white",
+     "navigationBarTitleText": "书籍",
+     "enablePullDownRefresh":true
+}

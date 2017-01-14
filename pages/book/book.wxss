@@ -1,0 +1,4 @@
+@import "../sport_article/sport_article.wxss";
+
+
+@import "../eating/template/template.wxss";

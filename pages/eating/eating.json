@@ -1,0 +1,6 @@
+{
+     "navigationBarBackgroundColor": "black",
+     "navigationBarTextStyle": "white",
+     "navigationBarTitleText": "美食介绍" ,
+     "enablePullDownRefresh":true
+}

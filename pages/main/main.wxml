@@ -1,0 +1,25 @@
+<view>
+  <swiper autoplay indicator-dots interval="{{interval}}" duration="{{duration}}" circular>
+   <block wx:for="{{imgUrls}}">
+    <swiper-item><image src="{{item}}" class="swiper_image"></image></swiper-item>
+   </block>
+  </swiper>
+  <view class="swiper-tab">  
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav" >运动</view>  
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">美食</view>  
+    <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">书籍</view>  
+</view> 
+  <swiper current="{{currentTab}}" class="swiper-box" duration="300" bindchange="bindChange">  
+    <block wx:for="{{post}}">
+    <swiper-item  >  
+        <view class="star" >
+          <image src="{{item.image}}"></image>
+          <view class="star-introduce">
+            {{item.text}}
+          </view>
+          <view class="more" data-post="{{item.post}}" bindtap="navigateTo_page" >查看更多</view>
+        </view> 
+    </swiper-item>  
+   </block>
+</swiper> 
+</view>
